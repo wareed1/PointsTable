@@ -101,7 +101,7 @@ Points Table generates a simple HTML-formatted file of event results. In past me
 
 Here is a partial example of how the web page renders. Note that the results are in reverse order, most recent at the top.
 
-![Example partial web page](images/web-page.PNG)
+![Example partial web page](images/web-page.png)
 
 ## 8. Data Entry User Manual
 
@@ -161,7 +161,7 @@ After entering the time cards for an event, press the ```Generate Results``` but
 
 If you edit a data file in a text editor outside of Points Table, you might inadvertently introduce an error. Here is an example of an edit that changed a swimmer number to an unknown value.
 
-![A meet statistics error](images/ms-error.PNG)
+![A meet statistics error](images/ms-error.png)
 
 Hopefully you get enough information to find and correct the error.
 
@@ -169,7 +169,7 @@ Hopefully you get enough information to find and correct the error.
 
 You can prepare swimmer numbers for individual events in advance of the meet. However, clubs typically assign relay teams and name the teams in the morning or during the lunch break. The ```Free Relay``` mode is a variation of the ```Events``` mode to enable you to add relay team names as you get the event cards.
 
-![Free Relay mode](images/free-relay-mode.PNG)
+![Free Relay mode](images/free-relay-mode.png)
 
 The Free Relays mode enables speedier entry of the team events when you need to create the swimmer name and save it before you can enter the time card results. In this mode, Points Table automatically selects the next available swimmer number for you and populates the applicable field: you do not have to use the ```Swimmer Number``` entry field.
 
@@ -185,7 +185,7 @@ Start by setting the event number either from the drop down or by entering "67" 
 
 Enter "Doggie Paddlers" here. Use the mouse to select the category: "Girls 8 & Under." Select "Kemptville" from the ```Club``` drop down. When the swimmer information is complete, press, ```Enter``` or click the ```Save Swimmer``` button to get a ```Saved``` confirmation pop up window.
 
-![Confirmation pop up window](images/confirmation-popup.PNG)
+![Confirmation pop up window](images/confirmation-popup.png)
 
 Press ```OK```. Next, Points Table moves the cursor to the ```Lane``` entry field. Enter '6' from the time card and press ```Enter```. Enter the time, pressing ```Enter``` to move between minutes and seconds data entry fields. Pressing ```Enter``` after entering the minutes results in a ```Saved``` confirmation pop up window. Press ```OK``` to acknowledge the action of saving the record to the database. Points Table clears the event and swimmer information, puts the next available swimmer number in the ```Swimmer Number``` data field and positions the cursor at ```Swimmer``` in preparation to enter the relay team name from the next time card.
 
@@ -200,7 +200,7 @@ Press ```OK```. Next, Points Table moves the cursor to the ```Lane``` entry fiel
 
 For medley relay events, data entry is the same as individual events. Switch the Entry Mode back to ```Events```. Now, as you get a time card and need to look up the swimmer number for the team, you can use the ```F1``` key to get a list of teams. First set the relay event in the ```Event``` entry field. When you press ```F1```, Points Table lists the possible teams in the selected event for your convenience when entering ```Swimmer Number```.
 
-![Use F1 to get a list of possible teams](images/f1.PNG)
+![Use F1 to get a list of possible teams](images/f1.png)
 
 ### 8.7. Updating and/or Entering Swimmers for Clubs
 
@@ -231,7 +231,7 @@ To automatically generate participation labels, you need in the Points Table dir
 - mklabels.vbs - Visual Basic script
 - Labels-Print.doc - Mail merge template for Avery labels
 - labels-input.txt - CSV-formatted swim meet results with the following fields:  
-  swimmer name : club,category,place in event [time],...   
+  swimmer name : club,category,place in event [time],...
   Example:  
   ```John Smith : Kemptville,Boys 11 & 12,3rd 100m IM [02:11.05],0th 50m Fly [01:01.04],5th 50m Breast [01:04.25]```
 
