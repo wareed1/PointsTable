@@ -240,7 +240,7 @@ To generate the labels, at a Command prompt window in the directory with the abo
 A successful run brings up a Word document on the monitor and has for each swimmer that participated in one or more events that swimmer's results.
 Load the label sheets in a printer and print page-by-page or for the number of populated pages. The template document contains more blank pages than should be necessary. If you print the entire document, you will print blank pages.
 
-The labels fit Avery 08160 Easy Peel labels, 6.7 cm x 2.5 cm, 30 per sheet.
+The labels fit Avery 5262 Easy Peel labels, 10.2 cm x 3.4 cm, 14 per sheet.
 
 ## 10. Print Results for the Meet Announcer
 
