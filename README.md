@@ -80,7 +80,7 @@ labels-input.txt | Label summary data used to generate Word document for printin
 Labels-Print.docx | Word document populated by mklabels.vbs to generate file for printing
 orange-500.gif | Background image for Points Table
 participantsV3.xlsx | Macro-enabled Excel spreadsheet to collect participating swimmers from each club in advance of the swim meet
-instructions.docx | Instructions for swim team coach on how to use participantsV3.xlsx and what to do with the artifacts produced by the spreadsheet
+send-to-clubs-instructions.docx | Instructions for swim team coach on how to use participantsV3.xlsx and what to do with the artifacts produced by the spreadsheet
 Slips-Template.docx | Template Word document for time card slips generation
 Slips-Print.docx | Ready-to-print Word document with time cards for team
 
