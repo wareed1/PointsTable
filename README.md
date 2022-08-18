@@ -215,6 +215,15 @@ To eliminate entering new swimmers for a club in an editor outside of Points Tab
   ***
   This mode eliminates the need to use an editor to enter new swimmers. But the mode is there to add a few late entries, not an entire team. For a large team, an editor like Notepad++ is more efficient to get the information into a file and then merge the file with the swimmers database.
 
+  Points Table finds the next available swimmer number for you. If you want to override that selection and use a larger swimmer number, press F2 and follow the prompt. You can quit if you decide not to change the selection.
+
+  ***
+  **_NOTE:_**
+  
+  You must enter a larger swimmer number. You use this feature if you want to add a new swim club for which you have no swimmers in the database. This feature lets you set swimmer numbers in range away from other clubs.
+  
+  ***
+
 ### 8.8. Changing Swimmer Information
 
 Invariably, someone has a birthday before the swim meet and needs to be in a different category from the one entered in the swimmers database. You can change swimmer information from within Points Table without the use of an editor outside of Points Table.  Press ```F3``` for instructions.  
