@@ -21,7 +21,6 @@
     - 8.9. Update or Delete a Result Already Entered
 - 9. Generate Participation Labels
 - 10. Print Results for the Meet Announcer
-- 11. Enhancements and Fixes
 
 <!-- /TOC -->
 
@@ -236,8 +235,16 @@ To automatically generate participation labels, you need in the Points Table dir
   ```John Smith : Kemptville,Boys 11 & 12,3rd 100m IM [02:11.05],0th 50m Fly [01:01.04],5th 50m Breast [01:04.25]```
 
 To generate the labels, at a Command prompt window in the directory with the above files, type:
-   ```cscript.exe mklabels.vbs```
-A successful run brings up a Word document on the monitor and has for each swimmer that participated in one or more events that swimmer's results.
+   ```cscript.exe mklabels.vbs "<banner for label>"```
+  ***
+  **_NOTE:_**
+  
+  The banner is a string printed at the top of the label. An example: ```Kemptville Bluefins Swim Meet 2022```
+  
+  Enclose the banner in double quotes if it is more than a single word.
+  
+  ***
+  A successful run brings up a Word document on the monitor and has for each swimmer that participated in one or more events that swimmer's results.
 Load the label sheets in a printer and print page-by-page or for the number of populated pages. The template document contains more blank pages than should be necessary. If you print the entire document, you will print blank pages.
 
 The labels fit Avery 5262 Easy Peel labels, 10.2 cm x 3.4 cm, 14 per sheet.
@@ -250,6 +257,3 @@ When the meet finishes, print the following files:
 - medal_results.txt - the category medal winners
 - club_results.txt - the participating swim teams in reverse order of placement, calculated based on points per swimmer
 
-## 11. Enhancements and Fixes
-
-1. mklabels.vbs has a hardcoded banner of "Kemptville Bluefins Swim Meet" on line 13. Get the banner from ms.conf instead.
